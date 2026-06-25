@@ -1,3 +1,6 @@
-.optionContainers {
-  background-color: rgb(172, 222, 65);
+.containerBtns {
+  justify-content: center;
+  flex: center;
+  padding: 10px;
+  background-color: pink;
 }
