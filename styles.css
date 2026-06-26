@@ -1,13 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  background: white;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, .08);
+}
+
+nav {
+  width: min(92%, 1400px);
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
 #logo {
-  width: 180px;
+  width: clamp(140px, 12vw, 210px);
   height: auto;
 }
 
+.navLinks {
+  display: flex;
+  gap: clamp(.75rem, 2vw, 2rem);
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .navBarBtns {
-  color: green;
-  text-decoration: underline;
-  padding: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  text-decoration: none;
+  color: #184d2a;
+  font-weight: 600;
+  transition: .25s;
+}
+
+.navBarBtns:hover {
+  color: #2d8b42;
 }
