@@ -2,3 +2,8 @@
   width: 180px;
   height: auto;
 }
+
+.navBarBtns {
+  color: green;
+  text-decoration: underline;
+}
